@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: #000;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+ }
+
+.header img {
+    height: 75px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+nav ul {
+    margin-right: 10px;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    list-style: none;
+    text-decoration: underline;
+}
+
+.main {
+    height: 700px;
+    width: 1200px;
+    background-image: url("../images/img-mission-background.jpg");
+    margin: 69px auto;
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+}
+
+.info h4 {
+    position: relative:
+    top: 10px;
+}
+
+
+
