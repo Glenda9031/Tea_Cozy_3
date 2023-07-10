@@ -44,7 +44,6 @@ header img {
 
 nav ul {
     margin-right: 10px;
-    color: seashell;
 }
 
 nav li {
@@ -52,6 +51,10 @@ nav li {
     padding: 10px;
     text-decoration: underline;
     margin-left: 5px;
+}
+
+nav a {
+    color: seashell;
 }
 
 /* Mission */
